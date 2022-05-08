@@ -1,0 +1,22 @@
+.post1{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 2px 1px;
+    border-color:rgb(197, 193, 193);
+    width: 700px;
+    margin-right: 20px;
+
+    .accounticon.MuiSvgIcon-root{
+    padding: 15px;
+    font-size: 40px ! important;
+}
+.post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+

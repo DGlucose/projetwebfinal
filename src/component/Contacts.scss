@@ -1,0 +1,17 @@
+.contacts{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 2;
+}
+.friends{
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 2;
+    padding: auto;
+    justify-content: space-around;
+}
