@@ -30,7 +30,7 @@ class MainArea extends React.Component{
 
   
   sendpost(data){
-    api.put("/post",{newpost:data.newpost, date:Date.now()})
+    api.put("/post",{newpost:data.newpost, date:Date.now(),userid:this.props.id})
       .then((response)=>{console.log(response.data)})
       .catch((err)=>{console.log(err)})
   }

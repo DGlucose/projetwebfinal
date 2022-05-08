@@ -25,7 +25,7 @@ export class Page extends Component {
       <div className="Page" >
      {this.state.page==="default" && <div className="Page">
             <Sidebar handler={this.handlerPage}/>
-            <MainArea  />
+            <MainArea  id = {this.props.datafrommain}/>
             <Widgets id = {this.props.datafrommain}/>
             </div>}
             {this.state.page==="profile" && <div className="Page">
